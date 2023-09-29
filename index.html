@@ -70,17 +70,22 @@
 					<div class="content">
 						<header>
 							<h2>Covid-19</h2>
-							<p>This was my first project using SQL and Power BI 
-								Used this project to familiarise myself with the basics of both platforms.
-								Firsly started off on SQL server going over the data and establishing relationships.
-								Then moving on to creating temp tables and views to take over to Power BI, where I
-								created an interactive dashboard.														
+							<p>In this project, we delve into the world of COVID-19 data analysis, leveraging the power of SQL and Power BI.
+								Our analysis encompasses a wide range of COVID-19-related topics, including but not limited to:
+								<ul>
+									<li>Epidemiological Trends: examine the spread of COVID-19 over time and across different geographic regions. Looking at total cases, infection and death rates across the world.</li>
+									<li>Vaccination Coverage: vaccines became a central tool in combating the pandemic, we will assess vaccination rates and their impact on reducing COVID-19 infection and death rates.</li>
+								
+								</ul>
+								
+								
 							</p>
 						</header>
-						<p> Improvements: Dashboard was a bit to cluttered, tried to fit in to much
-							information. After selecting a certain country and then hovering over some
-							of the graph, the pop-up still shows the continent instead of coutry eventhought the
-							figures are correct. Several other improvement could have been made.
+						<p> This was my first project using SQL and Power BI 
+							Used this project to familiarise myself with the basics of both platforms.
+							Firstly started off on SQL server going over the data and establishing relationships.
+							Then moving on to creating temp tables and views to take over to Power BI, where I
+							created an interactive dashboard.
 						
 						</p>
 						<ul class="actions">
@@ -89,72 +94,111 @@
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
 				</section>
-
+				
 			<!-- Three -->
 				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/stock.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Stock Price Prediction using Machine Learning</h2>
+							<p>Using an LSTM network to predict the closing stock price using the past stock price. I am going to try and predict the future value of Nvidia company stock.
+								This can be replaced by any stock, the data will be retrieved from Yahoo Finance using the yfinance module on python.
+							</p>
+						</header>
+						<p>
+							Create a data set to train the data, then make LSTM model will have two LSTM layers and two Dense layers. Find the RMSE and then plot the predicted
+							values against the real values. Through this we can se the accuracy of the LSTM model which we have designed. 
+							
+							Project carried out using Python on Jupyter Notebook.
+
+						</p>
+						<ul class="actions">
+							<li><a href="https://github.com/Kirtp99/Stock_Price_Prediction" class="button">View Project</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+				
+			
+			<!-- Four -->
+				<section id="four" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/epl.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>English Premier League Match Data Analysis</h2>
+							<p>Reviewing match data from 06/07 season to present day. We will investigate:
+								<ul>
+									<li>Is home ground advantage a thing? </li>
+									<li>Which teams have the most potent home ground advantage? </li>
+									<li>Does home ground referee bias exist? </li>
+								</ul>
+							</p>
+						</header>
+						<p> Acquire the data using web scrapping and append to a CSV file to carry out further analysis.
+							Create several data frames, graphs and Variable correlation charts to answer the question presented.
+							
+							Project carried out using Python on Jupyter Notebook.
+						</p>
+						<ul class="actions">
+							<li><a href="https://github.com/Kirtp99/EPL" class="button">View Project</a></li>
+						</ul>
+					</div>
+					<a href="#five" class="goto-next scrolly">Next</a>
+				</section>
+
+			 <!-- Five -->
+				<section id="five" class="spotlight style3 left">
 					<span class="image fit main bottom"><img src="images/math.jpg" alt="" /></span>
 					<div class="content">
 						<header>
-							<h2>Numerical Intergration Methods</h2>
-							<p>Using Numerical Intergration Methods to Calculate 
-							   Constants and Uncertainty Values in Quantum Mechanics on Jpyter Notebook
+							<h2>Numerical Integration Methods</h2>
+							<p>Using Numerical Integration Methods to Calculate 
+							Constants and Uncertainty Values in Quantum Mechanics on Jupyter Notebook
 							</p>
 						</header>
 						<p> This was the project I carried out as a part of my university coursework. It involves me using
-							three numerical intergration methods (Trapezium rule, Simpson's Rule and Monte-Carlo intergration)
+							three numerical integration methods (Trapezium rule, Simpson's Rule and Monte-Carlo integration)
 							to calculate the expectation values of position and their uncertainties. Then finding the unknown constants
 							in the wavefunctions. The aim was to find the best integration method for the all 3 parts of the 
 							wave function.
+
+							Project carried out using Python on Jupyter Notebook.
 						</p>
 						<ul class="actions">
 							<li><a href="https://github.com/Kirtp99/Numerical-Intergration-Methods" class="button">View Project</a></li>
 						</ul>
 					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
+					<a href="#six" class="goto-next scrolly">Next</a>
 				</section>
 
-			<!-- Four -->
-			<section id="four" class="spotlight style2 right">
-				<span class="image fit main"><img src="images/nashville.jpeg" alt="" /></span>
-				<div class="content">
-					<header>
-						<h2>Nashville Housing</h2>
-						<p>This project was about learning to clean up data using SQL.
+				<!-- Six -->
+				<section id="six" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/londonproperty.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>UK House Price Analysis</h2>
+							<p>Reviewing property sales in England and Wales from 1995 till present 2023.
+								Price comparison between the biggest cities in England and Wales.
+								Carrying out time series analysis of properties sold over same time period.
+								Create an interactive dashboard on Power BI to see property prices and number of properties sold as per postcode (zip code)
+							</p>
+						</header>
+						<p> 
+							Carry out research for the dips in property sales since 1995 to 2023 and present reasoning.
+
+							Project carried out using Python and Power BI.
 						</p>
-					</header>
-					<p> For example I standardised date formats, filled in null cells using other data, 
-						split up addresses (street, city, state), remove unsed columns, etc. 
+						<ul class="actions">
+							<li><a href="https://github.com/Kirtp99/HousePrices" class="button">View Project</a></li>
+						</ul>
+					</div>
+					<a href="#seven" class="goto-next scrolly">Next</a>
+				</section>
 
-					</p>
-					<ul class="actions">
-						<li><a href="https://github.com/Kirtp99/Nashville-Housing" class="button">View Project</a></li>
-					</ul>
-				</div>
-				<a href="#five" class="goto-next scrolly">Next</a>
-			 </section>
 
-			<!-- Five -->
-			<section id="five" class="spotlight style3 left">
-				<span class="image fit main bottom"><img src="images/stock.jpg" alt="" /></span>
-				<div class="content">
-					<header>
-						<h2>Crypto API</h2>
-						<p>Using an Crypto api to look at the top 15 crypto currencies and see price fluciations
-							over a certain period of time.
-						</p>
-					</header>
-					<p>
 
-					</p>
-					<ul class="actions">
-						<li><a href="https://github.com/Kirtp99/CryptoAPI" class="button">View Project</a></li>
-					</ul>
-				</div>
-				<a href="#six" class="goto-next scrolly">Next</a>
-			</section>
-
-			<!-- six -->
-				<section id="six" class="wrapper style1 special fade-up">
+			<!-- seven -->
+				<section id="seven" class="wrapper style1 special fade-up">
 					<div class="container">
 						<header class="major">
 							<h2>Contact Information</h2>
